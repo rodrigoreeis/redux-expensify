@@ -1,5 +1,5 @@
 import React from 'react';
-import Redux from './playgound/redux';
+import Redux from './playgound/redux-expensify';
 
 function App() {
   return (

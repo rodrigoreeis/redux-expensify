@@ -24,7 +24,7 @@ const x = () => {
     type: 'RESET'
   })
 
-  const countReducer = (state= { count: 0 }, action) => {
+  const countReducer = (state = { count: 0 }, action) => {
     switch(action.type) {
       case 'INCREMENT':
         return {
